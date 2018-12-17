@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+ul,ol {
+	list-style-type: none;
+}
+
+/* main css start */
+
+
+.header-top {
+	background: #9E5BBA;
+}
+.header-top-left p, .header-top-right p {
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 5px;
+}
+.header-bottom {
+	padding-top: 30px;
+}
+.search {
+    padding: 5px 0;
+    width: 330px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+	top: 20px;
+    float: left;
+    line-height: 22px;
+} 
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}
+.top-social h3 {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #444444;
+}
+.top-social i {
+	font-size: 20px;
+	color: #666;
+	margin-left: 10px;
+}
+.top-social i:hover {
+	color: #9E5BBA;
+}
+.nav-bg {
+	background: #9E5BBA;
+}
+
+/* nav part */
+#nav {
+	padding-top: 30px;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  border-right: 1px solid #fff;
+}
+.navbar-default .navbar-nav li.br a {
+  border-right: none;
+}
+
+/* Left panel */
+.left-panel {
+	
+}
+
+.list-item {
+	padding-top: 30px;
+}
+/* initiatives */
+.initiatives h3 {
+	font-size: 20px;
+	color: #9E5BBA;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	text-transform: bold;
+}
+.initiatives a {
+	font-size: 14px;
+	color: #444444;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	border-bottom: 1px solid #444444;
+	text-decoration: none;
+}
+.all a {
+	text-decoration: none;
+	border-bottom: none;
+	background: #000;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+.link-images {
+	padding-top: 60px;
+}
+.img1 {
+	margin-top: 10px;
+}
+.img1 img {
+	width: 100%;
+}
+
+.links-item {
+	margin-top: 10px;
+}
+.footer-img img {
+	width: 100%;
+}
+#footer {
+	padding-top: 50px;
+}
+.footer-mid {
+	padding-top: 20px;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	padding:0 10px;
+	border-right: 1px solid #444;
+	color: #444;
+	text-decoration: none;
+}
+.sub-btn {
+	width: 100px;
+	margin-top: 5px;
+	height: 40px;
+	float: right;
+}
